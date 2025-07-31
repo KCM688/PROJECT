@@ -1,1 +1,303 @@
 
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Link external style sheets here if you have them -->
+    <!-- Put css here if you don't have an external style sheet-->
+    <style>
+cube {
+  background-image: 
+}
+    
+p {
+  color : black;
+
+}
+
+#dogma:hover {
+
+}
+
+.gre {
+	color : black;
+}
+    
+th {
+  height : 100px;
+  width : 100px;
+  border : 4px;
+  border-style : solid;
+}
+    
+td {
+  height : 100px;
+  width : 100px;
+  border : 4px;
+  border-style : solid;
+}
+
+td:hover {
+  animation-name : hov;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
+  border-style : dashed;
+}
+
+th:hover {
+  animation-name : hov;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
+  border-style : dashed;
+}
+
+tr:hover {
+  animation-name : hov2;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
+}
+
+@keyframes hov {
+  from{background-color : rgba(255.0, 255.0, 255.0, 0.0);}
+  to{background-color : rgba(51, 122, 255.0, 1.0); !important}
+}
+	
+@keyframes hov2 {
+  from{background-color : rgba(1.0, 1.0, 1.0, 0.0);}
+  to{background-color : rgba(210, 170, 20, 1.0); !important}
+}
+Body{
+  background : gray;
+}
+button {
+  height : 100px;
+  width : 100px;
+  border : 4px;
+  border-style : solid;
+  }
+button {
+  color: blue;
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+    </style>
+    <script>
+  	function ran() {
+    	var col = Math.round(Math.random());
+        var c = document.getElementById("a" + Math.round(Math.random() * 15));
+        if ((c.style.backgroundColor != "blue") && (c.style.backgroundColor != "red")) {
+    		if(col == 1) {
+    			c.style.backgroundColor = "blue";
+        	} else {
+        		c.style.backgroundColor = "red";
+        	}
+        }
+    }
+function reset() {
+  var d = document.getElementById("a0")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a1")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a2")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a3")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a4")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a5")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a6")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a7")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a8")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a9")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a10")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a11")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a12")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a13")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a14")
+  d.style.backgroundColor = "gray"
+   var d = document.getElementById("a15")
+  d.style.backgroundColor = "gray"
+
+} 
+  
+function compare() {
+    var red = 0
+    var blue = 0
+    var d = document.getElementById("a0");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a0");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a1");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a1");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+     var d = document.getElementById("a2");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a2");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a3");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a3");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a4");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a4");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a5");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a5");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+     var d = document.getElementById("a6");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a6");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a7");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a7");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+      var d = document.getElementById("a8");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a8");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a9");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a9");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+     var d = document.getElementById("a10");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a10");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a11");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a11");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+     var d = document.getElementById("a12");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a12");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a13");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a13");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+     var d = document.getElementById("a14");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a14");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+    var d = document.getElementById("a15");
+   if (d.style.backgroundColor == "blue") blue = blue + 1;
+        console.log(String(blue));
+    var d = document.getElementById("a15");
+   if (d.style.backgroundColor == "red") red = red + 1;
+        console.log(String(red)); 
+        
+	var x = document.getElementById("num").value;
+         document.getElementById("demo").innerHTML = x;
+         var b = 10;
+    if (blue > red) {
+        document.getElementById("world").innerHTML = "<p>You win</p>";
+         var bb = (x * 2);
+  var b = (bb + b);
+ document.getElementById("money").innerHTML = b;
+}
+   else {
+document.getElementById("world").innerHTML"<p>You Lose</p>";
+  var b = (b - x);
+document.getElementById("money").innerHTML = b;
+    }
+}        
+  		
+  </script>
+  </head>
+  <body>
+    <div class="">
+      <h1>Blue is a Winner</h1>
+      <p id=money></p>
+<input type="number" id="num" min="0">
+<p id=demo></p>
+<p> Press this button to start the game</p>
+<button type="button" onclick="ran()">Press Me!</button>
+<p>Use this to compare the two colors </p>
+<p> If there is more blue you're a winner</p>
+<button type="button" onclick="compare()">Compare Me!</button>
+<p> Restart and try again with this click</p>
+<button type="button" onclick="reset()">Reset Me!</button>
+
+
+
+      <p id="dogma">More blue makes you a Winner</p>
+        <p id=world></p>
+      <table id="t">
+        <tr>
+          <th id="a0">  </th>
+          <th id="a1">  </th>
+          <th id="a2">  </th>
+          <th id="a3"> </th>
+        </tr>
+        <tr>
+          <td id="a4">  </td>
+          <td id="a5">  </td>
+          <td id="a6">  </td>
+          <td id="a7"> </td>
+        </tr>
+        <tr>
+          <td id="a8">  </td>
+          <td id="a9">  </td>
+          <td id="a10">  </td>
+          <td id="a11"> </td>
+        </tr>
+        <tr>
+          <td id="a12"> </td>
+          <td id="a13"> </td>
+          <td id="a14"> </td>
+          <td id="a15"> </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html> 
